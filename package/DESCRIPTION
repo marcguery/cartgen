@@ -1,0 +1,10 @@
+Package: cartgen
+Type: Package
+Title: A CART tree generator
+Version: 0.1.0
+Author: Marc-Antoine Guery
+Description: Calculates CART trees given a matrix. Calcules Gini-based gain to choose a node.
+Encoding: UTF-8
+LazyData: true
+NeedsCompilation: no
+Packaged: 2019-01-27
