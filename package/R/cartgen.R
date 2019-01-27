@@ -24,10 +24,8 @@ cartgen <- function(matrix, rnd=TRUE){
     }
     poss <- names(which(unlist(gains) == max(unlist(gains))))
     if (!rnd & length(poss)>1) {
-      cat(" Possible nodes are : ")
+      cat("Choose a node among : ")
       cat(poss)
-      cat("\n")
-      cat("Choose a node among those mentionned : ")
       best <- readLines(stdin(),1)
       if (!best%in%poss) {
         cat(best)
